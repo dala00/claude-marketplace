@@ -4,7 +4,7 @@
     "name": "alpha"
   },
   "metadata": {
-    "description": "A collection of Claude Code plugins for personal development workflows",
+    "description": "A collection of Claude Code plugins",
     "version": "0.1.0",
     "pluginRoot": "./plugins"
   },

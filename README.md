@@ -1,0 +1,34 @@
+# claude-marketplace
+
+Claude Code プラグインマーケットプレイス。
+
+## プラグイン一覧
+
+### security-check
+
+個人開発プロダクトのセキュリティチェッカー。プロジェクトの構成を自動判定し、該当するチェックを実行します。
+
+```
+/security-check:security-check
+```
+
+#### サブスキル
+
+| スキル | 対象 | 主なチェック項目 |
+|---|---|---|
+| `security-check-web` | Webフロントエンド | XSS, CSP, CORS, ビルド時の環境変数漏洩, SRI など |
+| `security-check-app` | モバイル/デスクトップアプリ | 証明書ピンニング, ローカルDB暗号化, IPC, 権限管理 など |
+| `security-check-backend` | バックエンド | SQLインジェクション, 認証, APIセキュリティ, レスポンスの情報漏洩 など |
+| `security-check-compliance` | 法務・コンプライアンス | 電気通信事業届出, 特商法, 利用規約, クレジット表記, 商標 など |
+
+統合スキル (`security-check`) はプロジェクト構成に応じて web / app / backend を選択的に実行し、compliance は常に実行します。各サブスキルは単独でも呼び出し可能です。
+
+## インストール
+
+```
+/plugin install security-check@claude-marketplace
+```
+
+## ライセンス
+
+MIT

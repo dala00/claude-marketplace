@@ -1,6 +1,6 @@
 # claude-marketplace
 
-個人開発プロダクト向けのClaude Codeプラグインマーケットプレイス。
+Claude Codeプラグインマーケットプレイス。
 
 ## ルール
 
