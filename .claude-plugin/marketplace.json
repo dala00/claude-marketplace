@@ -1,7 +1,7 @@
 {
-  "name": "claude-marketplace",
+  "name": "daladala-marketplace",
   "owner": {
-    "name": "alpha"
+    "name": "dala00"
   },
   "metadata": {
     "description": "A collection of Claude Code plugins",
@@ -15,7 +15,7 @@
       "description": "Security checker for personal development products",
       "version": "0.1.0",
       "author": {
-        "name": "alpha"
+        "name": "dala00"
       },
       "keywords": ["security", "audit", "owasp", "vulnerability"],
       "category": "security"

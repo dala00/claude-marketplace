@@ -27,7 +27,7 @@ Claude Code プラグインマーケットプレイス。
 ## インストール
 
 ```
-/plugin install security-check@claude-marketplace
+/plugin install security-check@daladala-marketplace
 ```
 
 ## ライセンス

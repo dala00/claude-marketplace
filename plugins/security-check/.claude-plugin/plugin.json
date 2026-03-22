@@ -3,7 +3,7 @@
   "description": "Security checker for personal development products. Scans code for common vulnerabilities, dependency issues, and security best practices.",
   "version": "0.1.0",
   "author": {
-    "name": "alpha"
+    "name": "dala00"
   },
   "keywords": ["security", "audit", "owasp", "vulnerability"],
   "license": "MIT"
