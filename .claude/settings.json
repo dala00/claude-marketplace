@@ -3,6 +3,7 @@
     "allow": [
       "Skill(update-config)",
       "WebFetch(domain:code.claude.com)"
-    ]
+    ],
+    "defaultMode": "acceptEdits"
   }
 }
