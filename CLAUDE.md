@@ -15,11 +15,15 @@
 `security-check` を大本のスキルとし、プロジェクトの種類に応じてサブスキルに振り分ける構成。
 
 ```
-security-check          ← 統合スキル（プロジェクト構成を判定し、該当するサブスキルを呼び出す）
-├── security-check-web      ← Webフロントエンド（React, Vue, Angular, 静的サイトなど）
-├── security-check-app      ← モバイル/デスクトップアプリ（Flutter, React Native, Electron など）
-└── security-check-backend  ← バックエンド（APIサーバー, CLI, バッチ処理など）
+security-check              ← 統合スキル（プロジェクト構成を判定し、該当するサブスキルを呼び出す）
+├── security-check-web          ← Webフロントエンド（React, Vue, Angular, 静的サイトなど）
+├── security-check-app          ← モバイル/デスクトップアプリ（Flutter, React Native, Electron など）
+├── security-check-backend      ← バックエンド（APIサーバー, CLI, バッチ処理など）
+└── security-check-compliance   ← 法務・コンプライアンス（電気通信事業届出, 特商法, 利用規約, 商標など）
 ```
+
+- web / app / backend はプロジェクト構成に応じて該当するもののみ実行
+- compliance はプロジェクトの種類を問わず常に実行
 
 #### 設計方針
 
