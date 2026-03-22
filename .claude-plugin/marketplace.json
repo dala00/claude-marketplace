@@ -1,0 +1,24 @@
+{
+  "name": "claude-marketplace",
+  "owner": {
+    "name": "alpha"
+  },
+  "metadata": {
+    "description": "A collection of Claude Code plugins for personal development workflows",
+    "version": "0.1.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "security-check",
+      "source": "./security-check",
+      "description": "Security checker for personal development products",
+      "version": "0.1.0",
+      "author": {
+        "name": "alpha"
+      },
+      "keywords": ["security", "audit", "owasp", "vulnerability"],
+      "category": "security"
+    }
+  ]
+}

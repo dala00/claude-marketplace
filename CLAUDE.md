@@ -1,0 +1,29 @@
+# claude-marketplace
+
+個人開発プロダクト向けのClaude Codeプラグインマーケットプレイス。
+
+## ルール
+
+- プロンプト関連のファイル（SKILL.md、CLAUDE.md など）は日本語で記述すること
+- 設定ファイル（JSON）は英語で記述すること
+- レスポンスは日本語で行うこと
+
+## スキル構成
+
+### security-check プラグイン
+
+`security-check` を大本のスキルとし、プロジェクトの種類に応じてサブスキルに振り分ける構成。
+
+```
+security-check          ← 統合スキル（プロジェクト構成を判定し、該当するサブスキルを呼び出す）
+├── security-check-web      ← Webフロントエンド（React, Vue, Angular, 静的サイトなど）
+├── security-check-app      ← モバイル/デスクトップアプリ（Flutter, React Native, Electron など）
+└── security-check-backend  ← バックエンド（APIサーバー, CLI, バッチ処理など）
+```
+
+#### 設計方針
+
+- チェック項目が多くなったサブスキルは、さらに細分化する
+  - 例: `security-check-backend-auth`（認証・認可）、`security-check-backend-api`（APIセキュリティ）など
+- 各サブスキルは単独でも呼び出し可能
+- 統合スキルはプロジェクト構成の自動判定→該当スキルの呼び出し→総合レポートの流れで動作する
