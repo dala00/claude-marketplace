@@ -5,13 +5,12 @@
   },
   "metadata": {
     "description": "A collection of Claude Code plugins",
-    "version": "0.1.0",
-    "pluginRoot": "./plugins"
+    "version": "0.1.0"
   },
   "plugins": [
     {
       "name": "security-check",
-      "source": "./security-check",
+      "source": "./plugins/security-check",
       "description": "Security checker for personal development products",
       "version": "0.1.0",
       "author": {
