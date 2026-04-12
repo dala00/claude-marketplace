@@ -18,6 +18,17 @@
       },
       "keywords": ["security", "audit", "owasp", "vulnerability"],
       "category": "security"
+    },
+    {
+      "name": "business-idea-check",
+      "source": "./plugins/business-idea-check",
+      "description": "Multi-perspective business idea evaluator with 5-level scoring",
+      "version": "0.1.0",
+      "author": {
+        "name": "dala00"
+      },
+      "keywords": ["business", "idea", "evaluation", "startup", "feasibility"],
+      "category": "business"
     }
   ]
 }
