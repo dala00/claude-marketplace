@@ -1,0 +1,10 @@
+{
+  "name": "business-idea-check",
+  "description": "Multi-perspective business idea evaluator. Analyzes target audience, profitability, customer acquisition, development feasibility, financial viability, and ethical considerations with a 5-level scoring system.",
+  "version": "0.1.0",
+  "author": {
+    "name": "dala00"
+  },
+  "keywords": ["business", "idea", "evaluation", "startup", "feasibility"],
+  "license": "MIT"
+}
