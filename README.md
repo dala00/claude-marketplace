@@ -23,6 +23,10 @@ Claude Code プラグインマーケットプレイス。
 個人開発プロダクトのセキュリティチェッカー。プロジェクトの構成を自動判定し、該当するチェックをすべて実行します。
 
 ```
+/plugin install security-check@daladala-marketplace
+```
+
+```
 /security-check:security-check
 ```
 
@@ -41,6 +45,10 @@ Claude Code プラグインマーケットプレイス。
 ### business-idea-check
 
 ビジネスアイデアの実現可能性・収益性を多角的に判定します。
+
+```
+/plugin install business-idea-check@daladala-marketplace
+```
 
 ```
 /business-idea-check:business-idea-check
